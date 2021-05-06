@@ -1,4 +1,4 @@
-#include "liba.h"
+#include "libasm.h"
 
 //char	*ft_strdup1(const char *s1)
 //{
@@ -27,7 +27,7 @@ int		main(void)
 
 	printf("Test: %s$\nORIGINAL: %d\nMY FUNC: %d\n\n", "biba boba", (int)strlen("biba boba"), (int)ft_strlen("biba boba"));
 	printf("Test: %s$\nORIGINAL: %d\nMY FUNC: %d\n\n", "", (int)strlen(""), (int)ft_strlen(""));
-	printf("Test: %s$\nORIGINAL: %d\nMY FUNC: %d\n\n", (int)strlen("    "), (int)ft_strlen("    "));
+	printf("Test: " "$\nORIGINAL: %d\nMY FUNC: %d\n\n", (int)strlen("    "), (int)ft_strlen("    "));
 
 
 
